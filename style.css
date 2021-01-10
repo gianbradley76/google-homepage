@@ -1,0 +1,162 @@
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: arial,sans-serif;
+}
+
+
+/* Navbar */
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 30px;
+  font-size: 13px;
+  width: 100%;
+}
+
+nav a {
+  color: rgba(0,0,0,0.87);
+}
+
+nav a, nav button {
+  margin: 0 10px;
+}
+
+nav button {
+  border: none;
+  border-radius: 3px;
+  padding: 7px 12px;
+  width: auto;
+}
+
+#google-apps {
+  opacity: .7;
+  width: 28px;
+  height: 28px;
+}
+
+#sign-in-btn {
+  font-weight: bold;
+  color: white;
+  background-color: #4387fd;
+}
+
+/* Main */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15vh;
+  padding-bottom: 50px;
+}
+
+/* Main > Searchbar */
+.searchbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid rgba(0, 0, 0, .15);
+  border-radius: 20px;
+  margin-top: 5vh;
+  padding: 10px;
+  width: 487px;
+}
+
+.searchbar img {
+  height: 24px;
+  width: auto;
+}
+
+input {
+  border: none;
+  position: relative;
+  width: 80%;
+  height: 100%;
+  font: 16px arial,sans-serif;
+  border: none;
+  outline: none;
+}
+
+#search-logo {
+  height: 20px;
+  width: auto;
+  opacity: .6;
+}
+
+/* Searchg Buttons */
+.search-buttons button{
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 3px;
+  margin: 25px 5px;
+  font-size: 14px;
+  padding: 10px 15px;
+  color: #3c4043;
+}
+
+.search-buttons button:hover {
+  border: 1px solid rgba(0, 0, 0, .1);
+}
+
+/* Google offered language */
+.language {
+  font-size: small;
+}
+
+.language a {
+  margin: 0 5px;
+  color: #1a0dab;
+}
+
+/* Footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+hr {
+  opacity: 50%;
+}
+
+.top-footer {
+  display: flex;
+  align-items: center;
+  color: rgba(0,0,0,.54);
+  margin-left: 30px;
+}
+.top-footer, .bot-footer {
+  height: 40px;
+  font-size: 14px;
+}
+.bot-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 30px;
+}
+
+.bot-footer a {
+  color: rgba(0,0,0,.54);
+  text-decoration: none;
+}
+
+.bot-left-footer a {
+  padding-right: 27px;
+}
+
+.bot-right-footer a {
+  padding-left: 27px;
+}
